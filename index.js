@@ -38,6 +38,7 @@ function fnMove(seq){
           (i.style.left = n.clientX + "px"),
           (i.style.top = n.clientY + "px");
       });
+
     var t = document.getElementById("cursor"),
       e = document.getElementById("cursor2"),
       i = document.getElementById("cursor3");
@@ -77,32 +78,32 @@ function fnMove(seq){
       $("body").removeClass("contact-on");
     });
   
-    //Travel portfolio page
+    //Design portfolio page
   
-    $(".travel").on
+    $(".Design").on
     ("click", function () {
-      $("body").addClass("travel-on");
+      $("body").addClass("Design-on");
     });
-    $(".travel-close").on("click", function () {
-      $("body").removeClass("travel-on");
-    });
-  
-    //Wildlife portfolio page
-  
-    $(".wildlife").on("click", function () {
-      $("body").addClass("wildlife-on");
-    });
-    $(".wildlife-close").on("click", function () {
-      $("body").removeClass("wildlife-on");
+    $(".Design-close").on("click", function () {
+      $("body").removeClass("Design-on");
     });
   
-    //Nature portfolio page
+    //Photograph portfolio page
   
-    $(".nature").on("click", function () {
-      $("body").addClass("nature-on");
+    $(".Photograph").on("click", function () {
+      $("body").addClass("Photograph-on");
     });
-    $(".nature-close").on("click", function () {
-      $("body").removeClass("nature-on");
+    $(".Photograph-close").on("click", function () {
+      $("body").removeClass("Photograph-on");
+    });
+  
+    //Film portfolio page
+  
+    $(".Film").on("click", function () {
+      $("body").addClass("Film-on");
+    });
+    $(".Film-close").on("click", function () {
+      $("body").removeClass("Film-on");
     });
   })(jQuery);
   
