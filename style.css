@@ -41,20 +41,22 @@ body {
     perspective: 800px;
   }
 
-      
+.Photograph {
+  
+    font-synthesis: style;
+    text-align: center;
+    text-decoration: none;
+  }
   
   
 h1 {text-align: center;}
 
 
-.Photograph {
-  
-  font-synthesis: style;
-  text-align: center;
-  text-decoration: none;}
+
 
 a {
   cursor: pointer;
+  color: white;
 }
 a:hover {
   text-decoration: none;
@@ -146,7 +148,7 @@ a:hover {
   font-weight: 900;
 }
 
-}
+
 @media screen and (max-width: 580px) {
   .hero-section .dancing {
     font-size: 18px;
@@ -516,6 +518,15 @@ body.Film-on .Film-section {
   line-height: 1.3;
   font-weight: 700;
   color: #ffffff;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu span {
+  margin: 0 1em;
 }
 /* #Link to page
 ================================================== */
