@@ -48,7 +48,7 @@ h1 {text-align: center;}
 
 
 .Photograph {
-  font-style: oblique;
+  
   font-synthesis: style;
   text-align: center;
   text-decoration: none;}
@@ -441,6 +441,8 @@ body.contact-on .contact-section {
   transition: all 300ms linear;
   z-index: 10;
 
+}
+
 .Design-close,
 .Photograph-close,
 .Film-close {
@@ -460,6 +462,7 @@ body.contact-on .contact-section {
   cursor: pointer;
   z-index: 11;
 }
+
 .Design-close:hover,
 .Photograph-close:hover,
 .Film-close:hover {
