@@ -50,7 +50,8 @@ h1 {text-align: center;}
 .Photograph {
   font-style: oblique;
   font-synthesis: style;
-  text-align: center;}
+  text-align: center;
+  text-decoration: none;}
 
 a {
   cursor: pointer;
@@ -439,7 +440,7 @@ body.contact-on .contact-section {
   -webkit-transition: all 300ms linear;
   transition: all 300ms linear;
   z-index: 10;
-}
+
 .Design-close,
 .Photograph-close,
 .Film-close {
