@@ -1,4 +1,5 @@
 
+
 var video = document.getElementById("myVideo");
 
 
@@ -106,5 +107,3 @@ function fnMove(seq){
       $("body").removeClass("Film-on");
     });
   })(jQuery);
-  
-  
